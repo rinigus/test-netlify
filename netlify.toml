@@ -1,0 +1,8 @@
+[build]
+  publish = "_site"
+  command = "jekyll build"
+
+[[redirects]]
+  from = "/packages/*"
+  to = "http://sailfishos-sony-tama.s3-website.pl-waw.scw.cloud/:splat"
+  status = 302
